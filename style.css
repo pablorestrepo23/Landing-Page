@@ -37,7 +37,7 @@
 .fc-content{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 .fc-text{
@@ -50,6 +50,7 @@
 .fc-title{
     color:#fff;
     margin-bottom: 20px;
+    font-size: 48px;
 }
 
 .fc-paragraph{
@@ -99,6 +100,11 @@ h2{
     gap: 20px;
 }
 
+.sc-img{
+    border: 5px solid #287094;
+    border-radius: 10px;
+}
+
 .sc-paragraph{
     font-size: 17px;
     font-weight: 700;
@@ -106,7 +112,7 @@ h2{
 
 .third-container{
     background-color: #D4D4CE;
-    width: 700px;
+    width: 1000px;
     margin: auto;
     margin-bottom: 50px;
 }
@@ -117,11 +123,18 @@ h2{
     text-align: justify;
 }
 
+.quote-text{
+    font-family: light italic;
+    font-size: 23px;
+}
+
 .author{
     font-size: 20px;
     font-weight: 700;
     text-align: right;
     padding: 30px 100px 50px 30px;
+    font-family: light italic;
+
 }
 
 .fourth-container{
